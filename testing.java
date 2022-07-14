@@ -11,7 +11,7 @@ public class sorting {
 	public static Clock clock = Clock.systemDefaultZone();
 	public static long comparisons = 0;
 	
-	public testing(int num_elements, int max_value) {
+	public sorting(int num_elements, int max_value) {
 		myList = new int[num_elements];
 		time = Long.valueOf(0);
 		max = max_value;
