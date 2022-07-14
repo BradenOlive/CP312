@@ -3,7 +3,7 @@ package sorting;
 import java.util.*;
 import java.time.Clock;
 
-public class testing {
+public class sorting {
 	int[] myList;
 	int max;
 	Long time;
@@ -242,7 +242,7 @@ public class testing {
 		long[] testTimes = new long[num_tests];
 		for(int i=0;i<num_tests;i++) {
 			System.out.println("Test " + String.valueOf(i));
-			testing Test1 = new testing(ListSize,1000);
+			sorting Test1 = new sorting(ListSize,1000);
 			//Test1.printList();
 			//Test1.quickSort();
 			//Test1.insertionSort();
